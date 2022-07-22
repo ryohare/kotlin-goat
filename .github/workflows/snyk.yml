@@ -26,5 +26,5 @@ jobs:
       - name: scan
         run: |
           snyk config set api=${{ secrets.SNYK_API_TOKEN }}
-          snyk code -d test --org=organization-1-i8b
+          snyk code -d test --org=nydig_poc
           #snyk monitor -d --org=organization-1-i8b
